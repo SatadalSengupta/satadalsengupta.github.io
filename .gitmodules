@@ -1,0 +1,3 @@
+[submodule "ha-dash"]
+	path = ha-dash
+	url = https://github.com/SatadalSengupta/ha-dash.git
