@@ -2268,7 +2268,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		margin-left: 300px;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -2298,8 +2298,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 375px;
-		position: absolute;
+		margin-left: 300px;
 	}
 
 		#main > section {
@@ -2645,7 +2644,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 0;
+				margin-left: 300px;
 			}
 
 		/* Main */
@@ -2660,7 +2659,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				margin-left: 0;
+				margin-left: 300px;
 			}
 
 				#main > section {
