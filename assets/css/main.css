@@ -2669,6 +2669,7 @@ input, select, textarea {
 			}
 
 	.prof-edu {
+		padding-top: 2em;
 		text-align: left;
 		line-height: 0.5em;
 	}
