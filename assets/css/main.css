@@ -2641,6 +2641,50 @@ input, select, textarea {
 
 	}
 
+/* Custom section starts here */
+
+/* Profile */
+
+	.prof-pic {
+		float: left;
+		margin-left: 0;
+		margin-top: 0;
+		padding-left: 10%;
+		height: 25%;
+		width: 25%;
+	}
+
+	.prof-edu {
+		float: left;
+		position: relative;
+		margin-left: 15%;
+		margin-top: 0;
+		padding-left: 10%;
+		padding-top: 0.5em;
+		text-align: left;
+		line-height: 0.5em;
+	}
+
+		.prof-edu h1 {
+			color: white;
+			font-weight: 600;
+			font-size: 1em;
+			line-height: 1em;
+		}
+
+		.prof-edu p {
+			display: block;
+			font-size: 0.8em;
+			color: rgba(255, 255, 255, 0.7);
+			line-height: 1.25em;
+			margin: 0.5em 0 0 0;
+		}
+
+			.prof-edu p b {
+				font-weight: 600;
+				color: rgba(255, 255, 255, 0.8);
+			}
+
 /* Papers */
 
 	.pubhead {
