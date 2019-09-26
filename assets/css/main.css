@@ -2645,22 +2645,30 @@ input, select, textarea {
 
 /* Profile */
 
-	.prof-pic {
-		float: left;
-		margin-left: 0;
-		margin-top: 0;
-		padding-left: 10%;
-		height: 25%;
-		width: 25%;
-	}
+	#profile .summary {
+			cursor: default;
+			margin: 0;
+		}
+
+		#profile .summary img {
+			width: 11em;
+			height: 11em;
+		}
+
+		#profile .summary li {
+			display: inline-block;
+			line-height: 1em;
+			padding: 0 0 0 2em;
+			margin: 0 0 0 2em;
+		}
+
+			#profile .summary li:first-child {
+				border-left: 0;
+				padding-left: 0;
+				margin-left: 0;
+			}
 
 	.prof-edu {
-		float: left;
-		position: relative;
-		margin-left: 15%;
-		margin-top: 0;
-		padding-left: 10%;
-		padding-top: 0.5em;
 		text-align: left;
 		line-height: 0.5em;
 	}
