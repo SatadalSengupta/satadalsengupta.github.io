@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video, author {
+section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -157,11 +157,6 @@ input, select, textarea {
 	strong, b {
 		font-weight: 300;
 		color: #666;
-	}
-
-	/* Custom addition: author */
-	author {
-		font-decoration: underline;
 	}
 
 	em, i {
@@ -2775,3 +2770,7 @@ input, select, textarea {
 			font-weight: bold;
 			color: rgb(7, 55, 99);
 		}
+
+	.me {
+		font-decoration: underline;
+	}
