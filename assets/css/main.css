@@ -161,7 +161,7 @@ input, select, textarea {
 
 	/* Custom addition: author */
 	author {
-		color: rgb(116, 27, 71);
+		color: blue;
 		font-weight: bolder;
 	}
 
