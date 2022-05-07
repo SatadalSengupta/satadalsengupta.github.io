@@ -161,7 +161,8 @@ input, select, textarea {
 
 	/* Custom addition: author */
 	author {
-		text-decoration: underline;
+		color: rgb(116, 27, 71);
+		font-weight: bolder;
 	}
 
 	em, i {
@@ -2740,7 +2741,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 0.9em;
 		font-style: italic;
-		color: rgb(64,64,64);
+		color: black;
 	}
 
 		.papers .pauthors strong {
