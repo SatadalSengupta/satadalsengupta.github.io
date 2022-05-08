@@ -162,7 +162,6 @@ input, select, textarea {
 	/* Custom addition: author */
 	author {
 		color: blue;
-		font-weight: bolder;
 	}
 
 	em, i {
